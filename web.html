@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>السيرةالذاتية - مصطفى جميل كوريني</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #006d79, #06434b);
+            color: #000000;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .button {
+            background: rgba(255, 255, 255, 0.8);
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: rgba(255, 255, 255, 0.9);
+        }
+        .content {
+            display: none;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 15px;
+            background: rgba(255, 255, 255, 0.8);
+        }
+        .references-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .references-table, .references-table th, .references-table td {
+            border: none;
+            padding: 10px;
+            text-align: left;
+        }
+        .references-table th {
+            background-color: #013036;
+        }
+        .contact-icon {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>سيرتي المهنية - مصطفى جميل كوريني</h1>
+</header>
+
+<div class="profile">
+    <img src="mustafa.jpg" alt="مصطفى جميل كوريني">
+    <div>
+        <h2>مصطفى جميل كوريني</h2>
+        <p>موقع: إدلب سلقين، سوريا</p>
+        <div class="contact-icon">
+            <a href="mailto:mustafakurini@gmail.com">📧</a>
+            <a href="https://www.linkedin.com/in/mustafakurini">🔗</a>
+        </div>
+    </div>
+</div>
+
+<div class="buttons">
+    <button class="button" onclick="toggleContent('education')">التعليم</button>
+    <button class="button" onclick="toggleContent('experience')">الخبرات العملية</button>
+    <button class="button" onclick="toggleContent('references')">المراجع</button>
+</div>
+
+<div id="education" class="content">
+    <h3>التعليم</h3>
+    <p>المعهد التقاني للحاسوب - اللاذقية، سوريا (أكتوبر 2016 - يوليو 2018) - هندسة البرمجيات</p>
+    <a href="https://drive.google.com/file/d/1RbPLUW6UTb6jpW95A1AJ5wbEDuuayPud/view?usp=sharing.pdf" target="_blank">عرض الشهادة</a>
+</div>
+
+<div id="experience" class="content">
+    <h3>الخبرات العملية</h3>
+    <h4>مساعد مراقبة وتقييم ميداني</h4>
+    <p>فبراير 2024 – يوليو 2024</p>
+    <p>الرابطة الطبية للمغتربين السوريين (SEMA) - كفر تخاريم - إدلب</p>
+    <ul>
+        <li>تصميم أدوات جمع البيانات المختلفة عند الطلب من المسؤول التقني لجمع البيانات الكمية والنوعية.</li>
+        <li>مراقبة أنشطة المشروع وفقًا لخطة التقييم.</li>
+        <li>توثيق الدروس المستفادة وتسجيل الخبرات المكتسبة خلال المشروع.</li>
+        <li>كتابة تقارير المراقبة والتقييم وإعداد تقارير حول تقدم المشروع.</li>
+        <li>إعداد تقارير ما بعد التوزيع PDM لتقييم تأثير التوزيع بعد تنفيذه.</li>
+        <li>المعرفة بجمع البيانات والإدارة وفهم كيفية جمع وتحليل البيانات وإدارة الأنشطة.</li>
+    </ul>
+
+    <h4>مدخل بيانات (التغذية – OTP/WV)</h4>
+    <p>أغسطس 2023 - ديسمبر 2023</p>
+    <p>الرابطة الطبية للمغتربين السوريين (SEMA) - كفر تخاريم، مشفى وسيم حسينو - إدلب</p>
+    <ul>
+        <li>إدارة العمليات الإدارية لفريق التغذية، بما في ذلك تنظيم جداول العمل والإجازات.</li>
+        <li>إدخال البيانات لمشروع التغذية بدقة وإرسال البيانات إلى مسؤول المعلومات الصحية.</li>
+        <li>مراقبة حركة سيارة نقل فريق الاستجابة وتوثيق حركة المركبات بشكل يومي.</li>
+        <li>توثيق الأدوية الدورية وضمان ظروف التخزين المناسبة.</li>
+    </ul>
+
+    <h4>مدخل بيانات (الصحة - عيادة متنقلة help Age /Mc-Ehsim)</h4>
+    <p>مايو 2023 - يوليو 2023</p>
+    <p>الرابطة الطبية للمغتربين السوريين (SEMA) - إدلب</p>
+    <ul>
+        <li>إدارة الشؤون الإدارية للموظفين الأطباء والموظفين الصحيين.</li>
+        <li>مراقبة حركة العيادة المتنقلة والأمان، وضمان مستويات كافية من الوقود والزيت.</li>
+        <li>توثيق الأدوية المستلمة والمستهلكة.</li>
+        <li>إعداد تقارير بيانات المستفيدين الشهرية ونصف الشهرية.</li>
+        <li>إدارة طلبات التمويل ومراقبة السلف النقدية والمشتريات.</li>
+    </ul>
+
+    <h4>مسؤول إدخال البيانات والإحصائيات</h4>
+    <p>أكتوبر 2020 - أبريل 2022</p>
+    <p>مديرية الخدمات لمنطقة حارم - إدلب</p>
+    <ul>
+        <li>إدخال بيانات إدارية ومراسلات كتب موجهة لوزارة الخدمات.</li>
+        <li>مراسلة المجالس المحلية وجمع بيانات المستفيدين والمزارعين.</li>
+        <li>إدخال بيانات المكتب الفني وإعداد التقارير.</li>
+    </ul>
+
+    <h4>مدخل بيانات (الصحة)</h4>
+    <p>أغسطس 2019 - مايو 2020</p>
+    <p>مركز الرعاية الصحية الأولية / Relief International - سلقين - إدلب</p>
+    <ul>
+        <li>إدارة وتأمين بيانات المرضى إلكترونيًا وعلى الورق.</li>
+        <li>إعداد التقارير الإحصائية والسردية وإرسالها.</li>
+        <li>التوثيق والنسخ الاحتياطي للبيانات.</li>
+        <li>تنظيم البيانات والتحقق منها.</li>
+    </ul>
+</div>
+
+<div id="references" class="content">
+    <h3>المراجع</h3>
+    <table class="references-table">
+        <tr>
+    <td>+352681581497</td>
+    <td>zaher.alahmad@sema-sy.org</td>
+    <td>Senior Human Resources</td>
+    <td>Zaher Alahmad</td>
+</tr>
+<tr>
+    <td>+963951392899</td>
+    <td>b.alhafez@sema-sy.org</td>
+    <td>Field HR Assistant</td>
+    <td>Basel Alhafez</td>
+</tr>
+<tr>
+    <td>+963954924526</td>
+    <td>a.kadour@sema-sy.org</td>
+    <td>Nutrition Coordinator</td>
+    <td>Ali Kadour</td>
+</tr>
+<tr>
+    <td>+905362385715</td>
+    <td>a.alqarat@sema-sy.org</td>
+    <td>Coordinator Medical</td>
+    <td>Abdulmughaith Al-Qarat</td>
+</tr>
+<tr>
+    <td>+963994550754</td>
+    <td>o.mahfoud@sema-sy.org</td>
+    <td>M&E Officer</td>
+    <td>Osama Mahfoud</td>
+</tr>
+<tr>
+    <td>+905313347914</td>
+    <td>Mohamadkhaled1991moha@gmail.com</td>
+    <td>Admin Manager</td>
+    <td>Mohamad Al-Khaled</td>
+</tr>
+
+        <!-- أضف المزيد من المراجع كما هو مطلوب -->
+    </table>
+</div>
+
+<script>
+    function toggleContent(id) {
+        const contents = document.querySelectorAll('.content');
+        contents.forEach(content => {
+            if (content.id === id) {
+                content.style.display = content.style.display === 'block' ? 'none' : 'block';
+            } else {
+                content.style.display = 'none';
+            }
+        });
+    }
+</script>
+
+</body>
+</html>
